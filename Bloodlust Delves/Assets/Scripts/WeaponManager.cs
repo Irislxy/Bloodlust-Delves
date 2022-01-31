@@ -6,6 +6,7 @@ public class WeaponManager : MonoBehaviour
 {
     public GameObject playerCam;
     public float range = 100f;
+    public float damage = 25f;
 
     public ParticleSystem muzzleFlash;
 
@@ -13,19 +14,17 @@ public class WeaponManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
-            //Debug.Log("Shoot");
             Shoot();
-
         }
-        
+
     }
 
     void Shoot()
@@ -34,10 +33,21 @@ public class WeaponManager : MonoBehaviour
 
         RaycastHit hit;
 
-        if(Physics.Raycast(playerCam.transform.position, transform.forward, out hit, range))
+        if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {
-            Debug.Log("hit");
-        }
 
+            EnemyManager enemyManager = hit.transform.GetComponent<EnemyManager>();
+            if (enemyManager != null)
+            {
+                enemyManager.Hit(damage);
+            }
+
+
+            Debug.Log(hit.transform.name);
+            //Debug.DrawRay(playerCam.transform.position, playerCam.transform.forward, Color.red, 5.0f);
+
+        }
     }
+
 }
+
