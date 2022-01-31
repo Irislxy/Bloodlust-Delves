@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManager : MonoBehaviour
+public class EnemyManager : MonoBehaviour 
 {
     public GameObject player;
     public GameObject enemy;
@@ -12,10 +12,9 @@ public class EnemyManager : MonoBehaviour
     public void Hit(float damage)
     {
         health -= damage;
-        if (health <= 0)
+        if(health <= 0)
         {
             Destroy(enemy);
-            ScoreScript.scoreValue += 10;
         }
     }
 
@@ -23,13 +22,13 @@ public class EnemyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
 

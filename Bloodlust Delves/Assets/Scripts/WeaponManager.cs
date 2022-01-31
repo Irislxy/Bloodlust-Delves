@@ -41,7 +41,7 @@ public class WeaponManager : MonoBehaviour
             {
                 enemyManager.Hit(damage);
             }
-
+            
 
             Debug.Log(hit.transform.name);
             //Debug.DrawRay(playerCam.transform.position, playerCam.transform.forward, Color.red, 5.0f);
@@ -50,4 +50,3 @@ public class WeaponManager : MonoBehaviour
     }
 
 }
-

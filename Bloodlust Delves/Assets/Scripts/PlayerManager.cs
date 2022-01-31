@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     {
         health -= damage;
 
-        if (health <= 0)
+        if(health <= 0)
         {
             SceneManager.LoadScene(0);
         }
@@ -23,12 +23,12 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
