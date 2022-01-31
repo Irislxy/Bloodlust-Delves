@@ -1,23 +1,30 @@
+Unity Editor version:    2021.2.6f1 (8c4e826ba445)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22543) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16228 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-D:\ricky\Documents\Unity\Installs\2021.2.7f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/ricky/Documents/GitHub/Bloodlust Delves
+/Users/rickywinarko/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55824
-Successfully changed project path to: D:/ricky/Documents/GitHub/Bloodlust Delves
-D:/ricky/Documents/GitHub/Bloodlust Delves
+62239
+Successfully changed project path to: /Users/rickywinarko/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves
+/Users/rickywinarko/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,248 +54,135 @@ D:/ricky/Documents/GitHub/Bloodlust Delves
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 73.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.7f1 (6bd9e232123f)
-[Subsystems] Discovering subsystems at path D:/ricky/Documents/Unity/Installs/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/ricky/Documents/GitHub/Bloodlust Delves/Assets
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rickywinarko/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
-    Vendor:   NVIDIA
-    VRAM:     4019 MB
-    Driver:   30.0.14.9729
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'D:/ricky/Documents/Unity/Installs/2021.2.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/ricky/Documents/Unity/Installs/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/ricky/Documents/Unity/Installs/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/ricky/Documents/Unity/Installs/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004558 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.67 ms, found 2 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002388 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
+- Completed reload, in  0.388 seconds
 Domain Reload Profiling:
-	ReloadAssembly (757ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (389ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (267ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007815 seconds.
+Registered in 0.004879 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.072 seconds
+- Completed reload, in  1.794 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2073ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1809ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1224ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (1412ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (962ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (1270ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3308 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (346.5 KB). Loaded Objects now: 3777.
-Memory consumption went from 228.7 MB to 228.3 MB.
-Total: 5.629000 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.206300 ms MarkObjects: 4.953600 ms  DeleteObjects: 0.174100 ms)
+Unloading 26 unused Assets / (334.5 KB). Loaded Objects now: 3777.
+Memory consumption went from 343.2 MB to 342.9 MB.
+Total: 2.602667 ms (FindLiveObjects: 0.141875 ms CreateObjectMapping: 0.043250 ms MarkObjects: 2.301708 ms  DeleteObjects: 0.115000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8195.363728 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Info/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Info/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to parse file Assets/IgniteCoders/Simple Water Shader/Info/Readme.asset: [Parser Failure at line 29: Expect ':' between key and value within mapping]
- -> (artifact id: '2344e750f9d449c8b7d6b7bcfde46894') in 0.032190 seconds 
+  Time since last request: 82195.300368 seconds.
+  path: Assets/Enemy
+  artifactKey: Guid(50c8a85a628554b4e98c4b0461059754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy using Guid(50c8a85a628554b4e98c4b0461059754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203232fc6e9a2a827d25acf6fbaca32') in 0.004976 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.822846 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87c26ea954ee0fa33ace91f45cdfaa3') in 0.003748 seconds 
+  Time since last request: 3.898840 seconds.
+  path: Assets/Enemy/Assets_AngryLog/Materials/MatRevenger.mat
+  artifactKey: Guid(fecd1a095cdee4f54b2a5aa96737a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Assets_AngryLog/Materials/MatRevenger.mat using Guid(fecd1a095cdee4f54b2a5aa96737a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7893dea8b9a7f316a3cb9a511d1717c') in 0.609320 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.475546 seconds.
-  path: Assets/Free Island Collection
-  artifactKey: Guid(85a17f62b9de8ac429df27fcb9e7cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection using Guid(85a17f62b9de8ac429df27fcb9e7cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6545ae04bc0355a4856da0b8a7cfa7de') in 0.002407 seconds 
+  Time since last request: 5.338801 seconds.
+  path: Assets/Enemy/Assets_AngryLog/FBX
+  artifactKey: Guid(857b95e020dc842d68625c3b2d497ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Assets_AngryLog/FBX using Guid(857b95e020dc842d68625c3b2d497ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691b76d6746e75c195b5b3fa93811ee') in 0.001262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.074829 seconds.
-  path: Assets/Material
-  artifactKey: Guid(cf81f4006e72afb48bb2851d0a24b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(cf81f4006e72afb48bb2851d0a24b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc38a8430d1081219b8f9b4fd43dd51') in 0.002029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.325855 seconds.
-  path: Assets/Material/Particle.mat
-  artifactKey: Guid(8186f7eede1901c40b451ddc731884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Particle.mat using Guid(8186f7eede1901c40b451ddc731884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f304622019348e9c4e0f3c31d3ae9e4') in 2.274020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.064101 seconds.
-  path: Assets/Enemy/Assets_AngryLog
-  artifactKey: Guid(a82bcb198e224064e987b7ec1c954f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Assets_AngryLog using Guid(a82bcb198e224064e987b7ec1c954f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a953c85bff0aa81bdda119ce580ae3') in 0.001933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.396494 seconds.
-  path: Assets/Enemy/Assets_AngryLog/Materials
-  artifactKey: Guid(14f5f639eea9f4ec08001da0d6b042dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Assets_AngryLog/Materials using Guid(14f5f639eea9f4ec08001da0d6b042dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8fc31415a25ab0f03953df983e8c28') in 0.002404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047906 seconds.
-  path: Assets/Enemy/Assets_AngryLog/Materials/MatEffectLeaves.mat
-  artifactKey: Guid(44c8770d817bd4fd6991b475b55df715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Assets_AngryLog/Materials/MatEffectLeaves.mat using Guid(44c8770d817bd4fd6991b475b55df715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed50e735a4b468b318a244d92b67ef1') in 0.039144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.165232 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Textures/Cliff_1/Cliff_1_Diffuse.tif
-  artifactKey: Guid(44c76103676243f41a593d9dcfb63e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Cliff_1/Cliff_1_Diffuse.tif using Guid(44c76103676243f41a593d9dcfb63e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c915c70211976050b799140cb6012b') in 0.054288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Textures/Cliff_2/Cliff_2_Normal.png
-  artifactKey: Guid(debbe2657a1008e4cabc9c52ece0fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Cliff_2/Cliff_2_Normal.png using Guid(debbe2657a1008e4cabc9c52ece0fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e578f054195de07777b7702e3c1f5f') in 0.148596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif
-  artifactKey: Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif using Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0575e2e86acabfe1ce4d5d2264ac98fc') in 0.017320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sci Fi Gun Light/_materials/CubeMap.exr
-  artifactKey: Guid(bc5d7914c594d274b9bb50cb9f34081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci Fi Gun Light/_materials/CubeMap.exr using Guid(bc5d7914c594d274b9bb50cb9f34081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a135762702831416ccfb2fc82077d3') in 0.166062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.526951 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50072bbf3bc76be42fa8774b9ed81a7b') in 0.310683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.181249 seconds.
-  path: Assets/Free Island Collection/Environment/Grass/Grass_B.png
-  artifactKey: Guid(bb0d5eea483852c48ae3a1202ce4aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Grass/Grass_B.png using Guid(bb0d5eea483852c48ae3a1202ce4aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b1d9d8730c8d941163ef2b70bf6495') in 0.020821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028334 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif
-  artifactKey: Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif using Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c688975e5467caed7506cac3608d9e8') in 0.024848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318478 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif
-  artifactKey: Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif using Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf994759fecb3c364daedf52b256e21') in 0.016044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028110 seconds.
-  path: Assets/Free Island Collection/Environment/Skies/Sky.jpg
-  artifactKey: Guid(927f1165e7b6f7b49bf1f8dbf6ad7a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Skies/Sky.jpg using Guid(927f1165e7b6f7b49bf1f8dbf6ad7a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d465b7646b67af5163f1698f627546d') in 0.028394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.255649 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 1.asset
-  artifactKey: Guid(4d32e30b5f100b34092f0cddf84f008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 1.asset using Guid(4d32e30b5f100b34092f0cddf84f008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e185c1a4ebb3952c1b22dbf4ca8f7') in 0.647270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Enemy/Assets_AngryLog/Textures/TexRevenger.png
-  artifactKey: Guid(e62994e71378b4362839f23288857d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Assets_AngryLog/Textures/TexRevenger.png using Guid(e62994e71378b4362839f23288857d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde62af5f2c5c47e931b60a9239f75d1') in 0.013634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset
-  artifactKey: Guid(32a065fc41c860e46858365d0acfcab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset using Guid(32a065fc41c860e46858365d0acfcab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679bc310a447c2c1bf03e029398f036e') in 0.562160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif
-  artifactKey: Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif using Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569895585f29f4eee9caf76bdc66a203') in 0.014715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Enemy/Assets_AngryLog/Textures/TexLeaves.png
-  artifactKey: Guid(a6916dd24e0f94fa6960c73c3de3fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Assets_AngryLog/Textures/TexLeaves.png using Guid(a6916dd24e0f94fa6960c73c3de3fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de2e8dc1d2a34b4fcb442db544d358d') in 1.130270 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 4.678251 seconds.
+  path: Assets/Enemy/Assets_AngryLog/FBX/TreeRevengerFBX.fbx
+  artifactKey: Guid(ef019180a46774882bdbf566549b7960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Assets_AngryLog/FBX/TreeRevengerFBX.fbx using Guid(ef019180a46774882bdbf566549b7960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddf56f993cbe8ac32548a3bed0de354') in 0.284636 seconds 
