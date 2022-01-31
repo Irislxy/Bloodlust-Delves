@@ -351,10 +351,9 @@
 "Assets/Island Assets/Water Shader/Simple Water Shader/Info/Scripts/Readme.cs"
 "Assets/Island Assets/Water Shader/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/Scripts/EnemyAI.cs"
-"Assets/Scripts/Gun.cs"
-"Assets/Scripts/HealthBarBehaviour.cs"
-"Assets/Scripts/LogBehaviour.cs"
+"Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/WeaponManager.cs"
 -langversion:9.0
