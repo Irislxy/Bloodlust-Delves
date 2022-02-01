@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyManager : MonoBehaviour 
 {
@@ -8,6 +9,8 @@ public class EnemyManager : MonoBehaviour
     public GameObject enemy;
     public float damage = 10f;
     public float health = 100f;
+
+    public NavMeshAgent enemyMeshAgent;
 
     public void Hit(float damage)
     {
@@ -28,7 +31,7 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        enemyMeshAgent.SetDestination(player.transform.position);
     }
 
 
@@ -37,6 +40,13 @@ public class EnemyManager : MonoBehaviour
         if (collision.gameObject == player)
         {
             player.GetComponent<PlayerManager>().Hit(damage);
+            float pushPower = 2.5f;
+            Vector3 pushDir =  collision.transform.position - transform.position;
+            player.GetComponent<CharacterController>().Move(new Vector3(pushDir.x,0,pushDir.z) * pushPower);
         }
+
+        Debug.Log("HITT");
     }
+
+    
 }
