@@ -65,8 +65,6 @@ public class PlayerMovement : MonoBehaviour
 
         velocity += (dragForce + frictionForce) * Time.deltaTime;
 
-        //Debug.Log(velocity);
-        Debug.Log(dragForce);
 
         controller.Move(velocity * Time.deltaTime);
     }

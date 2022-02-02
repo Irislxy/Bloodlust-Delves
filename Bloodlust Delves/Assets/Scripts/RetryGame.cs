@@ -20,6 +20,8 @@ public class RetryGame : MonoBehaviour
 
     public void LoadGame()
     {
+        //Debug.Log("Works");
         SceneManager.LoadScene("MainScene");
+        ScoreScript.scoreValue = 0;
     }
 }
