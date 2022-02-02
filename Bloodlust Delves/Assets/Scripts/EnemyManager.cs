@@ -20,6 +20,7 @@ public class EnemyManager : MonoBehaviour
         if(health <= 0)
         {
             Destroy(enemy);
+            ScoreScript.scoreValue += 10;
         }
     }
 
