@@ -1380,6 +1380,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 192
   jumpHeight: 2
+  dragCoefficient: 0.05
+  frictionCoefficient: 10
+  forceDecayRate: 20
 --- !u!114 &945292985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,6 +1725,7 @@ MonoBehaviour:
   enemy: {fileID: 1078762864}
   damage: 10
   health: 100
+  pushPower: 150
   enemyMeshAgent: {fileID: 1078762868}
 --- !u!54 &1078762871
 Rigidbody:

@@ -10,6 +10,8 @@ public class EnemyManager : MonoBehaviour
     public float damage = 10f;
     public float health = 100f;
 
+    public float pushPower = 150f;
+
     public NavMeshAgent enemyMeshAgent;
 
     public void Hit(float damage)
@@ -40,9 +42,8 @@ public class EnemyManager : MonoBehaviour
         if (collision.gameObject == player)
         {
             player.GetComponent<PlayerManager>().Hit(damage);
-            float pushPower = 2.5f;
             Vector3 pushDir =  collision.transform.position - transform.position;
-            player.GetComponent<CharacterController>().Move(new Vector3(pushDir.x,0,pushDir.z) * pushPower);
+            player.GetComponent<PlayerMovement>().AddForce(pushDir * pushPower);//(new Vector3(pushDir.x,0,pushDir.z) * pushPower);
         }
 
         Debug.Log("HITT");
