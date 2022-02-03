@@ -16,7 +16,7 @@ public class SpawnEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     IEnumerator SpawnRoutine(){
@@ -24,10 +24,10 @@ public class SpawnEnemy : MonoBehaviour
         // spawnPos.y = this.transform.position.y;
         while (true)
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(20f);
 
             Instantiate(EnemyPrefab, this.transform.position, Quaternion.identity);
         }
-        
+
     }
 }
