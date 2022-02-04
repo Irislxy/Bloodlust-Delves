@@ -1,0 +1,550 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1643990275515621, "dur":1555, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990275517180, "dur":67, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1643990275517258, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1643990275517279, "dur":1024, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1643990275518342, "dur":639, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990275518981, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279375, "dur":456, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279831, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279843, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279846, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279854, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279856, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279866, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279868, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279876, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279878, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279886, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279917, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279925, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279928, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279935, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279938, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279946, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279953, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279955, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279963, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279965, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279972, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279975, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277279985, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277280004, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277280077, "dur":2005, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1643990275519119, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990275519121, "dur":3189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990275522316, "dur":249786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1643990275772107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990275772128, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1643990275773409, "dur":363727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276137145, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276137158, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276138525, "dur":159271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276297801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276297809, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276299050, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276299271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276299277, "dur":43630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276342920, "dur":78798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276421723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276421731, "dur":59674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276481421, "dur":390532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276871957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276871965, "dur":8594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276880578, "dur":95100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990276975684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990276975692, "dur":53124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1643990277028837, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1643990277028865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990277028904, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1643990277032703, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1643990277032739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1643990277032750, "dur":7307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1643990277040078, "dur":239330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990275518809, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990275519070, "dur":3239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990275522317, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1643990275522413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990275528349, "dur":238166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1643990275766537, "dur":392893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276159436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276159444, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276160595, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276160798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276160803, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276161792, "dur":186151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276347946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276347952, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276348915, "dur":90059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276438977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276438984, "dur":43536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276482532, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276483480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276483485, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276484974, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276485252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276485257, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276486368, "dur":174595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276660968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276660975, "dur":219888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276880906, "dur":69379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990276950293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990276950305, "dur":77868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1643990277028197, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1643990277028557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990277028569, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1643990277030532, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1643990277030556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990277030564, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1643990277032838, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1643990277032866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1643990277032875, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1643990277037425, "dur":241967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275518649, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275519030, "dur":3270, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275522316, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1643990275522320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275523174, "dur":369, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1643990275523545, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1643990275523562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275527188, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1643990275530139, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1643990275530176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275530676, "dur":32217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1643990275562905, "dur":304258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1643990275867168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990275867176, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1643990275869234, "dur":246101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276115339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276115353, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276116877, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276117156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276117165, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276118362, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276118658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276118666, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276119813, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276120892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276120925, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276122606, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276122988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276122994, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276124134, "dur":22899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276147037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276147044, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276148299, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276148604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276148610, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276149758, "dur":230886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276380649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276380657, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276381986, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276382184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276382189, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276383263, "dur":102030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276485296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276485301, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276486391, "dur":184801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276671197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276671206, "dur":209434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276880658, "dur":72716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990276953381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990276953392, "dur":75155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1643990277028574, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1643990277028940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990277028947, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1643990277031676, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1643990277031696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1643990277031703, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1643990277034226, "dur":245149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275518958, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275519120, "dur":3228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275522349, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1643990275523130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275527103, "dur":21646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1643990275548767, "dur":57244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990275606015, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275606438, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990275607846, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990275608079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990275608287, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990275609167, "dur":506156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276115333, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276115353, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276116798, "dur":26410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276143213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276143221, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276144837, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276145079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276145085, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276146201, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276146413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276146420, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276147808, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276148143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276148149, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276149549, "dur":231553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276381105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276381111, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276382143, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276382419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276382424, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276383556, "dur":99579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276483138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276483144, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276484111, "dur":145309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276629423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276629429, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276630471, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276630945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276630950, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276632290, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276632474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276632479, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276633499, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276633675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276633681, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276634638, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276634814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276634819, "dur":243783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276878618, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276879625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276879637, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276882503, "dur":2595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276885101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276885110, "dur":26634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276911759, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276912164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276912173, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276914323, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276914636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990276914648, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990276916243, "dur":90621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990277006871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990277006883, "dur":22536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1643990277029441, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1643990277029465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990277029475, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1643990277032384, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1643990277032416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1643990277032428, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1643990277035117, "dur":244248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990275519064, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990275519065, "dur":3242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990275522317, "dur":10102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1643990275532423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990275532459, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1643990275533418, "dur":290551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1643990275823973, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990275823984, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1643990275825131, "dur":510675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276335812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990276335821, "dur":9140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276344974, "dur":92211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276437191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990276437199, "dur":45207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276482419, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276482608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990276482614, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276483607, "dur":150738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276634348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990276634354, "dur":243574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276877950, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276878242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990276878253, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990276880941, "dur":168297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990277049246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1643990277049257, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1643990277052474, "dur":226904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990275519254, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990275519254, "dur":3051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990275522317, "dur":250097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1643990275772422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990275772987, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1643990275775235, "dur":239716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276014959, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276014971, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276016085, "dur":76345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276092436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276092444, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276094933, "dur":229565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276324503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276324511, "dur":20463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276344988, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276345274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276345280, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276346331, "dur":115760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276462096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276462104, "dur":20081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276482202, "dur":388304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276870511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276870565, "dur":9939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276880522, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276881106, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276881118, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276884227, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276885149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276885170, "dur":27039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276912228, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276912620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276912633, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276914811, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276915262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276915273, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276917042, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276917428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276917437, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276919238, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276919733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276919747, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1643990276922001, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1643990276922020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276922024, "dur":27383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1643990276949427, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1643990276949456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1643990276949463, "dur":177072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1643990277126557, "dur":152819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1643990275519377, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1643990275519377, "dur":2968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1643990275522346, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1643990275522405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1643990275527630, "dur":22760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1643990275550400, "dur":1713878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1643990277264284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1643990277264291, "dur":15000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1643990277279308, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1643990277279311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990275519447, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990275519447, "dur":2859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990275522316, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1643990275522415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990275528855, "dur":237689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1643990275766558, "dur":272080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276038646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276038657, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276040148, "dur":53595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276093747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276093754, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276095273, "dur":71548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276166827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276166836, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276168318, "dur":184493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276352814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276352820, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276353817, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276354004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276354009, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276354918, "dur":71062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276425983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276425990, "dur":56848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276482848, "dur":110250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276593103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276593115, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276594278, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276594481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276594487, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276595488, "dur":287355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276882848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276882857, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276884455, "dur":1259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276885719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276885727, "dur":27048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276912793, "dur":854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276913654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276913663, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276915655, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276916229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276916239, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276918283, "dur":5636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990276923923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990276923932, "dur":103299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1643990277027252, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1643990277027274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990277027363, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1643990277031027, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1643990277031054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990277031114, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1643990277033572, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1643990277033603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1643990277033615, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1643990277036537, "dur":242843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275519534, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275519534, "dur":2826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275522360, "dur":3430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1643990275525793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275527408, "dur":10639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1643990275538061, "dur":2958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1643990275541023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275541031, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1643990275542043, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1643990275542070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990275542076, "dur":6845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1643990275548933, "dur":1603103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1643990277152042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1643990277152073, "dur":7339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1643990277159434, "dur":119945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990275519667, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990275519668, "dur":2681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990275522349, "dur":259532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1643990275781887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990275781911, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1643990275783434, "dur":310514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276093952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276093957, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276095234, "dur":218125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276313365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276313374, "dur":31615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276345002, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276345283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276345288, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276346375, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276346647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276346652, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276347669, "dur":103310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276450984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276450992, "dur":31465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276482468, "dur":146002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276628475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276628483, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276629504, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276629745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276629749, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276630855, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276631019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276631024, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276632119, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276632623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276632628, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276634000, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276634379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276634383, "dur":243628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276878036, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276878434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276878440, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276881061, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276881430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276881436, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276883641, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276884100, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276884113, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276885672, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276886022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276886028, "dur":26316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276912359, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276912668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276912679, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276914739, "dur":1524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276916267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276916274, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276919060, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276919683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276919738, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1643990276921745, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1643990276921766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276921772, "dur":27206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1643990276948994, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1643990276949014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1643990276949021, "dur":259165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1643990277208225, "dur":71152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275519731, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275519732, "dur":2614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275522346, "dur":12286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1643990275534635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275534649, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1643990275535512, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1643990275535533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275535545, "dur":11521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1643990275547079, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1643990275547105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275547110, "dur":25456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1643990275572580, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves.exe" }}
+,{ "pid":12345, "tid":11, "ts":1643990275573121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275573126, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves.exe" }}
+,{ "pid":12345, "tid":11, "ts":1643990275574327, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1643990275574352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275574530, "dur":152928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1643990275727472, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990275727671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990275727690, "dur":5063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990275732765, "dur":489719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276222520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276222529, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276223678, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276223881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276223889, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276224883, "dur":171871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276396759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276396766, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276397811, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276397993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276397997, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276398841, "dur":97947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276496793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276496800, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276497829, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276498082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276498087, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276503529, "dur":402326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276905862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276905872, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276912928, "dur":3449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276916386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276916398, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276920827, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276921124, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276921762, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1643990276923018, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1643990276923036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990276923042, "dur":104127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1643990277027189, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1643990277027211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990277027221, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1643990277031026, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1643990277031053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990277031120, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1643990277033774, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1643990277034108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1643990277034119, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1643990277036615, "dur":242752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990275519834, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990275519835, "dur":2479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990275522317, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1643990275522386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990275528584, "dur":10537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1643990275539132, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1643990275539153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990275539159, "dur":283679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1643990275822857, "dur":518655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276341518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276341526, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276344515, "dur":77282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276421801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276421807, "dur":59612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276481454, "dur":167628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276649088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276649095, "dur":231360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276880473, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276880927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276880939, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276883079, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276883372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276883380, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276884845, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276885122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276885130, "dur":26774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276911919, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276912217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276912229, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276914280, "dur":3067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276917351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276917360, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1643990276921713, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1643990276921746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276921779, "dur":26753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1643990276948559, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1643990276948585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1643990276948596, "dur":87980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/ricky/Documents/GitHub/Bloodlust-Delves/Bloodlust Delves_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1643990277036598, "dur":242809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1643990277283757, "dur":2219, "ph":"X", "name": "ProfilerWriteOutput" }
+,
